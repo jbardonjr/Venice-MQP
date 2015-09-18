@@ -1,0 +1,25 @@
+meeting notes 8/28
+
+*Plan individual meeting times
+	-Monday, Wednesday, Friday at 3 PM in the Zoo Lab
+	-Advisor Meeting on Thursday, 3 PM
+*Professor discussed his expectations, handed out MQP rules/procedures
+*Determined scope of the first term of the project
+	- Working prototype by the end of A Term
+	- Does not need music, final graphics
+	- Needs a working AI but not all features must be fully implemented
+*Grading policy discussed  (A, B, C, NAC)
+*Start the IRB (Institutional Review Board) paperwork to be allowed to have people test our game.
+	-Plan out a testing protocol in the first group meeting for filling out the form
+	-Perhaps fill out the form in the first meeting?
+*Project workflow discussed
+	-Slack, source control, and so on
+*Permadeath and procedural generation discussed
+	-If permadeath then one well crafted map
+	-If replayable then randomly generate
+*Advisor will provide version 2 of the game
+	
+*Goals for next week
+	-IRB form filled out, brought to meeting
+	-Meeting agenda prepared
+	-Deliver individual meeting notes after each meeting

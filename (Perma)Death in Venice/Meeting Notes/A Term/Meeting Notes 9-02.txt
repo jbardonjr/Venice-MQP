@@ -1,0 +1,8 @@
+Planned agenda for Advisor meeting
+Trello and BitBucket integrated into Slack
+	BitBucket has a created repository, non-configured
+	Trello has a board created, nothing is in it yet
+	Will be going over BitBucket during meeting Thursday
+Agenda e-mailed and posted to Slack
+Map size discussed (tentative 320x320 bead map to start)
+	Reasoning: about 10-20 screens per 'cycle', allows empty space to prevent the design from feeling constrained

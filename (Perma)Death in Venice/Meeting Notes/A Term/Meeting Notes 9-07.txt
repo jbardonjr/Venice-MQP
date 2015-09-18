@@ -1,0 +1,11 @@
+IRB form 'finalized'.
+	Survey and protocol drafted
+	While coming up with survey questions, permadeath adding or subtracting from the game brought up: also, does the player know about permadeath beforehand?
+Experience goal discussions
+
+Process:
+peak moments in novella ==> (*story driven game* or gameplay driven game) ==> translate to gameplay mechanics ==> trim to peak moments for game (remove things that subtract)
+
+Use the perlenspeil text for 'missions' for the player to do
+Starts out specific (also serves as a bit of a tutorial)
+Can either stay specific with the game crafted to incentivize / require disobeying or the goals can get more and more vague

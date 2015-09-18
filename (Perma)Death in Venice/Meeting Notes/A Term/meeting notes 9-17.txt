@@ -1,0 +1,20 @@
+IRB form: basically good.
+Proposed questions to cut should probably be cut.
+
+Establish a cycle/routine to break later.
+Perhaps instead of multiple days, return between meals?
+Instructions from NPCs (waiters, butlers, servants, etc.)
+"Mission" goals could be internal monologue.
+
+Start in the middle, Aschenbach ruminates while in the bedroom
+	Possibly flashbacks to the earlier points in the narrative during this: play, play, dream
+	Then the cholera happens after that
+	
+Aschenbach has a path that he wants to follow, Tadzio goes a different way, be lured away.
+Possibly model his mental state instead of his physical state.
+It falls apart the more divergences.
+
+Version 2 shown.
+
+Permadeath implemented in some way- perhaps a more subtle way than just one singular play.
+Game is shown in its "whole" form on Presentation Day, something changes and can never be seen again.

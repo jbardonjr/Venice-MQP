@@ -1,0 +1,34 @@
+18th:
+19th: Parsing from image
+20th: Map technical demo (reading multiple layers)
+      This includes a layer explicitly for pathfinding weights
+21st: Movement pathfinding (going around walls)
+22nd:
+23rd: 
+24th: Scrollable map
+25th: Mission display system implemented (probably easier than I think)
+26th:
+27th: 
+28th: Boat pathing implemented (remember previous two tiles, etc.) (skip if behind)
+29th: 
+30th: AI path-following implemented (loose pathing)
+ 1st:
+ 2nd: 
+ 3rd: Boat riding implemented (adjust player position with boat position, stop at docks)
+      Have a state in both player AND AI for being on a boat. (double skip if behind)
+ 4th:
+ 5th:
+ 6th:
+ 7th: 
+ 8th: Base AI complete (with 'flirty' interactions)
+ 9th: 
+10th: Boat flux implemented
+11th:
+12th:
+13th: If possible, 'staggering' behavior after trigger
+14th: Alpha build COMPLETE
+15th: Advisor meeting
+
+
+Aschenbach's lifestyle, timeline of events, interactable people
+Design map ideas

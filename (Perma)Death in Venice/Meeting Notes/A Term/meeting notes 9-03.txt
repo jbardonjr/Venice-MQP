@@ -1,0 +1,28 @@
+IRB form:
+Project name is MQP name, not game name
+Study protocol needs to be expanded substantially
+	How do we find subjects, etc. (informal testing by friends/colleagues!!)
+	What we are testing for (metrics, questions, etc.)
+	At the end of testing subject will be given a survey (show survey)
+Very important to be made clear that all tests are volunteers
+Also that all subjects get a random number to be non-identifiable
+Use standard consent form for test subjects
+
+Is the IMGD Lab/another classroom considered a private room?
+
+Setting up source control discussed
+
+Intro to the game discussed
+	Potentially wander around in a grey area for a while, last area visited has red guy
+	Red may be a colorblind issue, see how people react to red in a grey area
+	Clicking on the guy, dissolve to boat?
+Avoid extensive dialogue
+
+Articulate the experience goal
+	Use the experience goal to trim the design down to only its essential components
+	One or two sentences, describe the peak moments
+	Figure out the ending
+	Storyboard out the crucial scenes (including player actions!)
+		Make sure these are implementable
+	Based on the experience goal, determine when the player knows they can only play once
+		Depending on what the goal is, let them know before/after

@@ -1,0 +1,48 @@
+Use Perlenspiel's default pathfinding:
+00000
+01110
+09010
+01110
+00000
+Internal representation of map
+Generated automatically from the image of the map
+map in game is shown as colored tiles from the image: each color is its own 'weight', these weights can potentially change midway through (i.e. stay in shadows -> avoid shadows)
+	Potential implementations of this would be actually changing weights partway through, or having multiple tilesets of different weighting but about the same colors
+	
+Map Layers:
+	LAYER 1: Colors the player will see
+	LAYER 2: black/white/shades of gray for the pathfinding weights
+	possible: other pathfinding weights, if necessary
+	LAYER 3: AI path
+	LAYER 4: Boat paths
+	LAYER 5: Event triggers
+	Internally, these are all stored into arrays?
+
+BRIDGES
+	*Bridges have their own layer as well, override water type and can be walked across AND boated under
+	*Essentially, gray tiles on their own layer add properties and are displayed over (perhaps semi-transparent?)
+BOATS
+	*Boats move on global cycles of semi-random speed
+	*Boat platforms could be brown 'docks' that go out into the water as the only way to step onto a boat
+	*Once the pathfinding 'locks on' to a boat, the cycles become set to ensure a boat arrives as Tadzio gets there
+	*boat lockons would be from a fairly close distance (about 6 or 7 tiles away, perhaps up to 10)
+	*player would sometimes be forced to also get on a boat or to pursue a boat on foot
+	*Tadzio would hop on, hop off and either dance around taunting the player or move closer in absolute distance while farther in relative distance, taunting in a different way
+	*implemented into the map with on its own layer with preset paths (how to direction???)
+	*In implementation, boats have a starting point and a 'next tile' along the path (brown, dark blue, light blue). Boats will remember their previous tile and move to the only available adjacent tile when they move.
+
+
+AI:
+randomize a list of numbers (3 4 4 5 5 5 5 6 6 6 6 6 6 7 7 7 7 7 7 7 7 .... 13 13 13 14 14 15) and move again once this distance from the player (remain in place for 0-2 additional tiles)
+	*Yes, this could result in multiple consecutive moves, adding to the teasing (many low numbered rolls and (2) waits in a row may result in catching: override and move the full distance if the player gets 2 tiles away)
+The list of numbers changes as the game goes on, adjusting from the average weights as the personality changes
+
+Distance: current pathfinding distance in tiles from player to Tadzio
+MoveDistance: number from the list that, when Distance <= MoveDistance, Tadzio will Wait a random number from the Wait array before moving a random number from the Move array forward.
+Move: distances that Tadzio can move (range, changes by behavior)
+Wait: number of moves of yours Tadzio will wait before moving (range, changes by behavior)
+Threshhold: how close Tadzio will let the player get before immediately moving, overriding Wait.
+Should the player get in front of Tadzio, he will either hop on a boat or into a building and eventually end up in front of the player.
+another threshhold based on maximum distance at which Tadzio will reverse and head back towards Aschenbach
+
+Allow hardcoded in distances and locations to Tadzio to move to/from based on other preset position checks

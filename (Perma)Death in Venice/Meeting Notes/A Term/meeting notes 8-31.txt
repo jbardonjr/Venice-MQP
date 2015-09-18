@@ -1,0 +1,19 @@
+IRB form filled out
+	Major point of discussion was number of tests, came out with ~60 as a high or B Term under the following assumptions:
+no testing week 1, or final week (final tweaks for testing/from testing)
+Half hour maximum length per test
+3 hours of testing, twice a week (gives time for changing based on feedback)
+6 per day, 10 days, 60 people.
+
+Testing protocol discussed (in more detail in the IRB form)
+	In a broad sense: participants are observed playing the game, offer their thoughts after completion, are thanked for their time.
+Potentially have the participants play the game multiple times, to see how the experience changes
+
+Began work on game design document
+Potential map/general AI implementation determined
+Permadeath vs. Procedural Generation vs. both
+	*Currently leaning towards just permadeath, procedural generation without replays wouldn't deliver on as solid of an experience as one hand crafted map.
+
+Flow of scenes discussed
+
+Potential start point of Germany (gray, contrast with Venice, relatively linear), arrive in Venice by boat, meet Tadzio, Tadzio behaviors during chase
