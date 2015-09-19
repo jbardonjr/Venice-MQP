@@ -1,0 +1,20 @@
+General game structure:
+ Path is Aschenbach's strict lifestyle, nothing changes
+ Loops through as he's experienced everything
+ Tadzio sometimes overlaps, most of the time is off to the side
+ Following Tadzio off the path will eventually lead back to the path
+ The path will be in a worse state on returning
+ If the player does not pursue Tadzio, they're going through the same motions every "day".
+ Red guy can leave main path after being talked to (moving off it), spawn off the main path as well. Normal NPCs won't.
+  IMPORTANT ISSUE: WHAT DO WE DO WITH THE PLAYERS WHO STAY ON THE MAIN PATH
+  *force off the main path at some point
+    *feels game-y
+  *allow the player to remain on the main path indefinitely
+   *eventually leave Venice, survive
+    *yay good end you didn't die! Title becomes a misnomer
+   *eventually still contract cholera, die
+    *title remains intact, Tadzio pursuit ignored. Least intrusive, but also least satisfying.
+ 
+ Other flashbacks/dreams are the same style and serve to establish characterization
+ Possibly force off the path in the dream: just a gap so you must take the side paths
+ The side paths will never rejoin there, however.
